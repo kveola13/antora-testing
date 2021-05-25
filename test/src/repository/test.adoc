@@ -1,0 +1,109 @@
+= *_bababa_*
+
+*vavava*
+
+_cacaca_
+
+tadada
+
+[.line-through]#adada#
+
+#addada#
+
+https://google.com[google link]
+
+image:colorpicker.gif[]
+
+|===
+|Header 1 |Header 2 |Header 3
+
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+|===
+
+`monotest`
+
+
+.dialog
+|===
+|Header 1 |Header 2 |Header 3
+
+|Column 1, row 1
+|Column 2, row 1
+|Column 3, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|Column 3, row 2
+
+|Column 1, row 3
+|Column 2, row 3
+|Column 3, row 3
+|===
+
+forced +
+line break
+
+normal, _italic_, *bold*, `mono` +mono+
+
+normal, ^super^, ~sub~
+
+[red]#red text# [yellow-background]#on yellow#
+[big]#large# [red yellow-background big]*all bold*
+
+n__i__**b**++m++[red]##r##
+
+(C) (R) (TM) -- ... -> <- => <= &#182;
+
+.link to image
+image:colorpicker.gif[
+"My screenshot",width=30,
+link="colorpicker.gif"]
+
+include stuff:
+
+include::antora.yml[]
+
+* bullet
+** bullet
+** bullet
+*** bullet
+*** bullet
+**** bullet
+**** bullet
+***** bullet
+***** bullet
+**** bullet
+*** bullet
+** bullet
+* bullet
+
+- bullet
+* bullet
+
+. number
+.. letter
+.. letter
+. number
+.. loweralpha
+.. loweralpha
+... lowerroman
+... lowerroman
+.... upperalpha
+.... upperalpha
+..... upperroman
+..... upperroman
+.... upperalpha
+... lowerroman
+.. loweralpha
+. number
+
+'''
+Question 1:: Answer 1
+Question 2:: Answer 2
+
