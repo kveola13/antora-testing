@@ -1,0 +1,1 @@
+source file for the all-family-module in the partials directory
