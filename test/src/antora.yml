@@ -1,0 +1,22 @@
+#name: Demo-Site
+#version: 1.0
+#display_version: 1,0
+#nav: [nav.adoc]
+#prerelease: alpha.2
+#start_page: /ROOT/pages/a-source-file.adoc
+#title: My Demo Site 2
+name: silver-leaf
+title: Silver Leaf
+version: "7.1"
+display_version: '7.1 Spiny'
+prerelease: "Alpha"
+asciidoc:
+  attributes:
+    table-caption: Data Set
+    hide-uri-scheme: ''
+    page-level: Beginner
+    page-category: Testing
+  nav:
+    - modules/ROOT/nav.adoc
+    - modules/a-named-module/nav.adoc
+  start_page: get-started:a-source-file.adoc
