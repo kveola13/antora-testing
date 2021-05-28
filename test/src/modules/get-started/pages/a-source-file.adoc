@@ -1,0 +1,44 @@
+= Page Title
+First Middle Last <author@email.com>; First Last <author@email.com>
+:description: A description of the page stored in an HTML meta tag.
+:page-category: DevOps
+:page-edition: Enterprise
+:url-repo: https://my-git-repo.com
+:page-tags: name of a tag, name of a tag
+
+source file for get-started module in the pages directory
+
+possible start page
+
+== Section heading
+
+This is a paragraph in a section.
+
+include::../../partials/treeline-warning.adoc[test,test]
+image::../../../colorpicker.gif[Color Pick]
+image::../../a-named-module/images/colorpicker.gif[]
+image::1.0@a-named-module:colorpicker.gif[]
+This sentence contains an inline image:a-named-module:colorpicker.gif[] image
+include::a-named-module:page$a-source-file.adoc
+
+include::../../../a-named-module/pages/a-source-file.adoc[]
+
+This is an in-page cross reference: <<Page Title>>
+
+[#playbook]
+Playbook example
+
+This is an [#playbook]#inline ID#
+
+<<playbook>> rn
+
+CAUTION: Don't stick forks in electric sockets.
+
+TIP: After someone sticks a fork in a socket, you'll need to reset the circuit in the breaker box in the dark and scary basement.
+
+WARNING: Never go into the basement.
+
+IMPORTANT: A monster lives in the basement.
+
+NOTE: If you go into the basement, see if you can find Kenny's parka.
+
