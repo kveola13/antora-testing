@@ -1,0 +1,15 @@
+= Page Title
+First Middle Last <author@email.com>; First Last <author@email.com>
+:description: A description of the page stored in an HTML meta tag.
+:page-category: DevOps
+:page-edition: Enterprise
+:url-repo: https://my-git-repo.com
+:page-tags: name of a tag, name of a tag
+
+ROOT -> Pages -> index.adoc
+
+== Section heading
+
+This is a paragraph in a section.
+
+
