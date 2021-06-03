@@ -1,0 +1,6 @@
+xref:get-started:a-source-file.adoc[Get started]
+
+* xref:get-started:a-source-file.adoc[Get Started 2]
+** xref:get-started:a-source-file.adoc[Get Started 3]
+* CLI commands
+** link:{attachmentsdir}/filename.md[Text]
